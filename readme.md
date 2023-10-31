@@ -40,4 +40,23 @@ The Module 19 Challenge Python and unsupervised learning to predict if cryptocur
 - Create a composite plot by using hvPlot and the plus sign (+) operator to compare the elbow curve that you created from the original data with the one that you created from the PCA data.<br>
 
 ![image](https://github.com/RachaelCaldwell/crypto_clustering/blob/main/Resources/elbow_composite.png?raw=true)
-- Create a composite plot by using hvPlot and the plus (+) operator to compare the cryptocurrency clusters that resulted from using the original data with those that resulted from the PCA data. 
+- Create a composite plot by using hvPlot and the plus (+) operator to compare the cryptocurrency clusters that resulted from using the original data with those that resulted from the PCA data.<br>
+
+![image](https://github.com/RachaelCaldwell/crypto_clustering/blob/main/Resources/scatter_composite.png?raw=true)
+
+***Summary Analysis***<br>
+
+**Question #1:** What is the best value for `k`?<br>
+* **Answer:** The best value for k is 4, this means 4 is the optimal number of clusters.
+
+**Question #2:** What is the total explained variance of the three principal components?
+* **Answer:** 0.3719856 + 0.34700813 + 0.1760379389 = 0.8950316570309842 or approx. 89.5%
+
+**Question #3:** What is the best value for `k` when using the PCA data?
+* **Answer:** The best value for k using PCA data is still 4.
+
+**Question #4:** Does it differ from the best k value found using the original data?
+* **Answer:** No. The underlying structure of the data, as represented by the best number of clusters (4), remained consistent with and without PCA.
+
+**Question #5:** After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
+* **Answer:** PCA successfully reduced the dimensionality of the data while preserving the essential structure for clustering analysis. The inertia decreased and the data points seem to be less dispersed. Having fewer features to cluster the data seems to reduce ambiguity, which leads to a better interpretation of the results.
