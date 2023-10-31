@@ -37,5 +37,7 @@ The Module 19 Challenge Python and unsupervised learning to predict if cryptocur
 ![image](https://github.com/RachaelCaldwell/crypto_clustering/blob/main/Resources/scatter_pca.png?raw=true)
 
 ***Visualize and Compare the Results***
-- Create a composite plot by using hvPlot and the plus sign (+) operator to compare the elbow curve that you created from the original data with the one that you created from the PCA data.
+- Create a composite plot by using hvPlot and the plus sign (+) operator to compare the elbow curve that you created from the original data with the one that you created from the PCA data.<br>
+
+![image](https://github.com/RachaelCaldwell/crypto_clustering/blob/main/Resources/elbow_composite.png?raw=true)
 - Create a composite plot by using hvPlot and the plus (+) operator to compare the cryptocurrency clusters that resulted from using the original data with those that resulted from the PCA data. 
