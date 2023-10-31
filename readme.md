@@ -24,7 +24,9 @@ The Module 19 Challenge Python and unsupervised learning to predict if cryptocur
 - Create a new DataFrame with the PCA data. Be sure to set the coin_id index from the original DataFrame as the index for the new DataFrame. Review the resulting DataFrame.
 - Find the Best Value for k by Using the PCA Data
 - Code the elbow method algorithm, and use the PCA data to find the best value for k. Use a range from 1 to 11.
-- To visually identify the optimal value for k, plot a line chart of all the inertia values computed with the different values of k.
+- To visually identify the optimal value for k, plot a line chart of all the inertia values computed with the different values of k.<br>
+
+![image](https://github.com/RachaelCaldwell/crypto_clustering/blob/main/Resources/elbow_pca.png?raw=true)
 - Cluster the Cryptocurrencies with K-means by Using the PCA Data
 - Initialize the K-means model with four clusters by using the best value for k.
 - Fit the K-means model by using the PCA data.
