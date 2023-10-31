@@ -32,7 +32,9 @@ The Module 19 Challenge Python and unsupervised learning to predict if cryptocur
 - Fit the K-means model by using the PCA data.
 - Predict the clusters for grouping the cryptocurrencies by using the PCA data. Review the resulting array of cluster values.
 - Create a copy of the DataFrame with the PCA data, and then add a new column to store the predicted clusters.
-- Using hvPlot, create a scatter plot by setting x="PC1" and y="PC2". Color the graph points with the labels that you found by using K-means. Then add the crypto name to the hover_cols parameter to identify the cryptocurrency that each data point represents.
+- Using hvPlot, create a scatter plot by setting x="PC1" and y="PC2". Color the graph points with the labels that you found by using K-means. Then add the crypto name to the hover_cols parameter to identify the cryptocurrency that each data point represents.<br>
+
+![image](https://github.com/RachaelCaldwell/crypto_clustering/blob/main/Resources/scatter_pca.png?raw=true)
 
 ***Visualize and Compare the Results***
 - Create a composite plot by using hvPlot and the plus sign (+) operator to compare the elbow curve that you created from the original data with the one that you created from the PCA data.
