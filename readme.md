@@ -13,7 +13,9 @@ The Module 19 Challenge Python and unsupervised learning to predict if cryptocur
 - Fit the K-means model by using the original data.
 - Predict the clusters for grouping the cryptocurrencies by using the original data. Review the resulting array of cluster values.
 - Create a copy of the original data, and then add a new column of the predicted clusters.
-- Using hvPlot, create a scatter plot by setting x="price_change_percentage_24h" and y="price_change_percentage_7d". Color the graph points with the labels that you found by using K-means. Then add the crypto name to the hover_cols parameter to identify the cryptocurrency that each data point represents.
+- Using hvPlot, create a scatter plot by setting x="price_change_percentage_24h" and y="price_change_percentage_7d". Color the graph points with the labels that you found by using K-means. Then add the crypto name to the hover_cols parameter to identify the cryptocurrency that each data point represents. <br>
+
+![image](https://github.com/RachaelCaldwell/crypto_clustering/blob/main/Resources/scatter_original.png?raw=true)
 
 ***Optimize the Clusters with Principal Component Analysis***
 - Create a PCA model instance, and set n_components=3.
