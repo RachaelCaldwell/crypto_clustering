@@ -5,8 +5,9 @@ The Module 19 Challenge Python and unsupervised learning to predict if cryptocur
 
 ***Find the Best Value for k by Using the Original Data***
 - Code the elbow method algorithm to find the best value for k. Use a range from 1 to 11.
-- To visually identify the optimal value for k, plot a line chart of all the inertia values computed with the different values of k.
-![image]
+- To visually identify the optimal value for k, plot a line chart of all the inertia values computed with the different values of k. <br>
+
+![image](https://github.com/RachaelCaldwell/crypto_clustering/blob/main/Resources/elbow_original.png?raw=true)
 - Cluster the Cryptocurrencies with K-Means by Using the Original Data
 - Initialize the K-means model with four clusters by using the best value for k.
 - Fit the K-means model by using the original data.
