@@ -1,5 +1,5 @@
 # crypto_clustering_challenge
-The Module 19 Challenge Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
+The Module 19 Challenge uses Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
 **Requirements**<br>
 
